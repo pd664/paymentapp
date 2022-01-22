@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "parteek <prateek.dixit664@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "open": "^8.4.0",
+    "paytm-pg-node-sdk": "^1.0.4",
+    "query-string": "^7.1.0",
+    "querystring": "^0.2.1",
+    "razorpay": "^2.8.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
